@@ -13,6 +13,11 @@ Simply clone the repository, install requirements and run the script
 - `$ pip install -r requirements.txt`
 - `$ python wpbullet.py`
 
+## Docker Build
+`docker run -t xshuden/wpbullet .`
+
+## Docker Run
+`docker run --rm -it --name wp xshuden/wpbullet`
 
 ## Usage
 Available options:
