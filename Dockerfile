@@ -9,6 +9,7 @@ RUN apk add --no-cache python3 && \
     if [[ ! -e /usr/bin/python ]]; then ln -sf /usr/bin/python3 /usr/bin/python; fi && \
     rm -r /root/.cache
 
+RUN mkdir /tmp/site-file
 RUN apk add git
 RUN git clone https://github.com/webarx-security/wpbullet.git /tmp/wpbullet
 
